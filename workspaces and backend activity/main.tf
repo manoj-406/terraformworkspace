@@ -4,5 +4,5 @@ resource "aws_instance" "node1" {
   key_name                    = var.aws_instance.key_name
   associate_public_ip_address = var.aws_instance.associate_public_ip_address
   subnet_id                   = var.aws_instance.subnet_id
-  tags                        =   var.aws_instance.tags
+  tags                        = var.aws_instance.tags
 }
