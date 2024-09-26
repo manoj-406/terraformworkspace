@@ -5,7 +5,7 @@ variable "aws_instance" {
     key_name                    = string
     associate_public_ip_address = bool
     subnet_id                   = string
-    tags = map(string)
+    tags =                         map(string)
   })
 
 
